@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div class="game">
+      <h1>GUESS THE NUMBER</h1>
+      <label for="guessInput"></label
+      ><input
+        type="text"
+        class="guessInput"
+        required
+        minlength="1"
+        maxlength="2"
+      />
+    </div>
+
+    <input type="submit" value="GUESS" class="guessButton" />
+    <div class="messages">
+      <p class="guesses">You already tried these:</p>
+      <p class="guessMessage"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
